@@ -1,0 +1,195 @@
+/* #left img {
+    width: 23px;
+    height: 23px;
+} */
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+#header{
+    position: sticky;
+    top:0;
+    left:0;
+}
+.navbar{
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center; 
+}
+.nav-logo{
+    height: 70px;
+    width: 100px;
+}
+.logo{
+    background-image: url("myn_logo.cms");
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+}
+.men{
+    font-family: "Monaco";
+    padding: 30px;
+    font-size: 0.8rem;
+    font-weight:bold;
+}
+.men:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.women{
+    font-family: "Monaco";
+    padding: 30px;
+    font-size: 0.8rem;
+    font-weight:bold;
+}
+.women:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.kids{
+    font-family: "Monaco";
+    padding: 30px;
+    font-size: 0.8rem;
+    font-weight:bold;
+}
+.kids:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.hl{
+    font-family: "Monaco";
+    padding: 30px;
+    font-size: 1.2rem;
+    
+    font-weight:bold;
+}
+.hl:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.beauty:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.studio:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 50px; 
+    background-color:rgb(219, 219, 213); 
+}
+.search-input{
+    width:450px;
+    height: 30px;
+    padding-top: 10px;
+    text-align:justify;
+    font-size: 1rem;
+    background-color:rgb(219, 219, 213);   
+    border: none;
+    color: black;
+}
+.search-icon{
+    padding-top:15px;
+    justify-content: center;
+    align-items: centre;
+}
+.nav-profile{
+    padding:20px ;
+}
+.nav-wishlist{
+    padding-right:20px ;
+}
+.pro{
+    font-size: 0.6rem;
+}
+.wis{
+    font-size: 0.6rem;
+}
+.bag{
+    font-size: 0.6rem;
+}
+
+/* .navbar div p:hover::after{
+    content: "";
+    background-color: black;
+    height: 2px;
+    width: 4px;
+    left: 30px;
+    bottom: -30px;
+} */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:300px ;
+    
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box1{
+   height: 400px; 
+   width: 23% ;
+   background-color: white;
+   padding: 20px 0px 15px;
+   margin-top: 15px;
+}
+.box1-img{
+   
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: irem;
+}
+.box-content p{
+    color: #007185 ;
+}
+footor{
+    margin-top: 15px;
+}
+.foot-pannel-1{
+    background-color: rgb(219, 219, 213);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+
+}
+.foot-pannel2{
+    background-color: aliceblue;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
