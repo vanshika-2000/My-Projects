@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin:0%;
+    padding: 0%;
+}
+body{
+    margin:0%;
+    padding: 0%;
+}
+
+
+#head{
+    background-color: rgb(6, 10, 56);
+    height: 75px;
+    width: 100%;
+    /* position: fixed; */
+    display: flex;
+   
+}
+#searchemp{
+    background-color: rgb(62, 66, 117); 
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 40px;
+    width: 175px;
+   
+    
+}
+#joinlogin{
+    display: flex;
+    font-weight: bolder;
+    /* margin-right: 250px; */
+    margin-top: 15px;
+    font-size: medium;
+    
+}
+#headercontainer{
+    display: flex;
+    justify-content: right;
+    /* justify-items: center; */
+    position: absolute;
+    margin-left: 65vw;
+   
+   
+}
+.line{
+    color: aqua;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.text{
+    color: white;
+   
+}
+#head i{
+    color: white;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left:43vw;
+    /* position: absolute; */
+   
+}
+#logo{
+    height: 65px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.navsec{
+    display: flex;
+    list-style: none;
+    
+}
+.listitem{
+    margin-left: 50px;
+    font-weight: bolder;
+    color: rgb(6, 10, 56);
+}
+#space{
+    font-family: Montserrat;
+    margin-left: 95px;
+    font-size: medium;
+}
+.myitem{
+    margin-left: 485px;
+    font-weight: bolder;
+    font-size: medium;
+    
+}
+#heart{
+    color: rgb(236, 59, 130);
+    margin-left: 460px;
+    margin-top: 1px;
+    position: absolute;
+}
+#herosection{
+    height: 415px;
+    width: 100%;
+}
+.heading{
+    background-image: linear-gradient(to right, rgb(6, 10, 56) , rgb(28, 3, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    margin-left: 12vw;
+    font-weight:bolder;
+    
+}
+.seeall{
+    border-color: rgb(3, 11, 255);
+    border-radius: 10px;
+    color:   rgb(3, 11, 255);
+    height: 40px;
+    width: 100px;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-left: 40vw;
+}
+#container{
+    display: flex;   
+}
+#main-container{
+
+}
+
+
+
+
